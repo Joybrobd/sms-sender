@@ -1,7 +1,6 @@
 sms_bot.py
 
 import logging from aiogram import Bot, Dispatcher, executor, types from aiogram.types import ParseMode from filters import bad_words
-
 API_TOKEN = '8441283363:AAFDUl1lpl0CAhOTl7brLPWh_9ZKw_oLcrA'
 USERS = {}
 ADMINS = [6556220592]  # Replace with your own Telegram user ID
